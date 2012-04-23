@@ -378,9 +378,9 @@ body {
 }
 
 .left.sidebar {
-    border-radius: 4em 1em 4em 1em;
-    -webkit-border-radius: 4em 1em 4em 1em;
-    -moz-border-radius: 4em 1em 4em 1em;
+    border-radius: 4em 1em 1em 4em;
+    -webkit-border-radius: 4em 1em 1em 4em;
+    -moz-border-radius: 4em 1em 1em 4em;
 }
 
 #logo {
