@@ -342,6 +342,27 @@
 
 
 /* Custom hacks */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+    
+body {
+    background-image: url('/images/huckt.jpg');
+    padding-top: 0.5em;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.sidebar {
+    background: rgba(0, 0, 0, 0.1);
+    margin-top: 0.5em;
+    padding: 0.5em;
+}
+
 hr {
     height: 1px;
     background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
@@ -349,6 +370,9 @@ hr {
     background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
     background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
     border: 0;
+    margin: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 #news .author, #tweets .author {
@@ -356,10 +380,6 @@ hr {
 }
 
 #news dt, #tweets dt {
-    margin-top: 1em;
-}
-
-#news {
-    margin-bottom: 1em;
+    margin-top: 0.5em;
 }
 
