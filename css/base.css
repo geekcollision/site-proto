@@ -351,6 +351,7 @@
 body {
     background-image: url('/geekcollision-site/images/huckt.jpg');
     padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 .container {
