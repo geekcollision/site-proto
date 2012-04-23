@@ -356,12 +356,41 @@ body {
 
 .container {
     background: rgba(255, 255, 255, 0.3);
+    border-radius: 4em;
+    -webkit-border-radius: 4em;
+    -moz-border-radius: 4em;
 }
 
 .sidebar {
+    box-shadow: 0.1em 0.1em 0.5em #111;
+    -webkit-box-shadow: 0.1em 0.1em 0.5em #111;
+    -moz-box-shadow: 0.1em 0.1em 0.5em #111;
     background: rgba(0, 0, 0, 0.1);
     margin-top: 0.5em;
     padding: 0.5em;
+}
+
+.right.sidebar {
+    padding-bottom: 2em;
+    border-radius: 1em 4em 1em 4em;
+    -webkit-border-radius: 1em 4em 1em 4em;
+    -moz-border-radius: 1em 4em 1em 4em;
+}
+
+.left.sidebar {
+    border-radius: 4em 1em 4em 1em;
+    -webkit-border-radius: 4em 1em 4em 1em;
+    -moz-border-radius: 4em 1em 4em 1em;
+}
+
+#logo {
+    background-image: url('/geekcollision-site/images/logo.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 70px;
+    height: 70px;
+    margin: 0.5em;
+    margin-left: 1em;
 }
 
 hr {
