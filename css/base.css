@@ -355,6 +355,7 @@ body {
 }
 
 .container {
+    background-color: #dbdfc8;
     background: rgba(255, 255, 255, 0.3);
     border-radius: 4em;
     -webkit-border-radius: 4em;
@@ -365,6 +366,7 @@ body {
     box-shadow: 0.1em 0.1em 0.5em #111;
     -webkit-box-shadow: 0.1em 0.1em 0.5em #111;
     -moz-box-shadow: 0.1em 0.1em 0.5em #111;
+    background-color: #bfc2ae;
     background: rgba(0, 0, 0, 0.1);
     margin-top: 0.5em;
     padding: 0.5em;
