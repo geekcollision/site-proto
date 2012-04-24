@@ -415,3 +415,13 @@ hr {
     margin-top: 0.5em;
 }
 
+#atom {
+    background-image: url('/geekcollision-site/images/rss.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 48px;
+    height: 48px;
+    float: right;
+    margin: 1em;
+}
+
